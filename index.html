@@ -8,9 +8,39 @@
 <body>
   <div id="popup">
     <h1>Will you be my Valentine? ❤️</h1>
-    <button id="yes">Yes</button>
-    <button id="no">No</button>
+    <button id="yes">
+      <svg width="100" height="90" viewBox="0 0 100 90" xmlns="http://www.w3.org/2000/svg">
+        <path d="M50 80 L20 50 A20 20 0 0 1 50 20 A20 20 0 0 1 80 50 Z" fill="red"/>
+      </svg>
+      Yes
+    </button>
+    <button id="no">
+      <svg width="100" height="90" viewBox="0 0 100 90" xmlns="http://www.w3.org/2000/svg">
+        <path d="M50 80 L20 50 A20 20 0 0 1 50 20 A20 20 0 0 1 80 50 Z" fill="#ff6666"/>
+        <path d="M50 20 L45 40 L55 50 L50 70" stroke="black" stroke-width="3" fill="none"/>
+      </svg>
+      No
+    </button>
   </div>
+
+  <!-- Hidden GIF container -->
+  <div id="gif-container" style="display:none;">
+    <img src="https://media0.giphy.com/media/v1.Y2lkPTc5MGI3NjExam1yYzVmNDRtbWkyY2hjOWNtOTFubGVqYzQwbDA2bGl5YjE2MWxtaSZlcD12MV9pbnRlcm5hbF9naWZfYnlfaWQmY3Q9Zw/fA81FF4mdE6lgeoJwb/giphy.gif" 
+         alt="Love Gif">
+  </div>
+
+  <!-- Floating cupids -->
+  <div class="cupid-container">
+    <img src="https://upload.wikimedia.org/wikipedia/commons/0/0b/Cupid_icon.png" class="cupid" alt="Cupid">
+    <img src="https://upload.wikimedia.org/wikipedia/commons/0/0b/Cupid_icon.png" class="cupid" alt="Cupid">
+    <img src="https://upload.wikimedia.org/wikipedia/commons/0/0b/Cupid_icon.png" class="cupid" alt="Cupid">
+    <img src="https://upload.wikimedia.org/wikipedia/commons/0/0b/Cupid_icon.png" class="cupid" alt="Cupid">
+  </div>
+
+  <!-- Arrows/Hearts container -->
+  <div class="arrow-container"></div>
+
   <script src="script.js"></script>
 </body>
 </html>
+
